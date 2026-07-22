@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -39,8 +39,19 @@
         </select>
       </div>
 
-      <!-- Products Grid -->
-      <div id="productsContainer" class="products-grid"></div>
+      <div class="products-layout">
+        <aside id="productDetailsPanel" class="product-details-panel">
+          <h2>Product Details</h2>
+          <p class="product-details-placeholder">
+            Click "More info" on a product card to view its description.
+          </p>
+        </aside>
+
+        <!-- Products Grid -->
+        <div class="products-grid-wrapper">
+          <div id="productsContainer" class="products-grid"></div>
+        </div>
+      </div>
 
       <!-- Selected Products -->
       <div class="selected-products">
